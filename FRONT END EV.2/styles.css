@@ -1,41 +1,61 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #033746;
     margin: 0;
     padding: 0;
+   
   }
   
   .container {
     max-width: 800px;
     margin: 20px auto;
     padding: 0 20px;
+    margin-top: 30px;
   }
   
   h1 {
-    text-align: center;
-  }
+    display: inline-block; 
+    vertical-align: middle; 
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    margin-top: 15px;
+}
   
   p {
     text-align: justify;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    color: white;
+    font: 300;
+    font-family: "arial", sans-serif;
+    font-size: 15px;
+
   }
   
   h2 {
     margin-top: 30px;
     margin-bottom: 20px;
+    color: white;
+    margin-left: 50px;
   }
-  
+  h3 {	
+    color: white;
+    text-align: center;
+
+  }
   form {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 35%;
+    margin-left: 50px;
   }
   
   label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
   
   input[type="text"],
@@ -65,3 +85,115 @@ body {
     background-color: #0056b3;
   }
   
+  .card-container {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.card {
+  flex: 1; 
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/* icono HOSPITAL  */
+.Icon {
+  display: inline-block; 
+  vertical-align: middle; 
+  margin-left: 13px;
+  margin-right: 10px;
+  margin-top: 10px;
+  width: 3%;
+}
+
+
+.icon-container {
+  position: fixed; 
+  top: 20px; 
+  right: 20px; 
+}
+
+/* iconos red social  */
+.iconsRS {
+  width: 30px; 
+  height: auto; 
+  margin-left: 10px;
+}
+
+
+
+.carouselSlide {
+margin-top: 40px;
+margin-left: 10px;
+margin-right:10px ;
+padding-bottom: 20px;
+
+
+}
+
+
+.carouselSlide.carousel .carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+.carouselSlide.carousel .carousel-item {
+  max-height: calc(60vh - 40px);
+}
+
+.carouselSlide.carousel {
+  overflow: hidden; 
+}
+
+.search-container {
+  display: inline-block;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente el contenedor */
+  width: 50%; /* Establece el ancho del contenedor al 50% del ancho de la página */
+  margin: 0 auto; /* Centra horizontalmente el contenedor */
+}
+
+.search-input {
+  width: 100%; /* Establece el ancho del input al 100% del contenedor */
+  padding: 8px 12px; /* Ajusta el relleno del input */
+  border-radius: 20px; /* Redondea los bordes del input */
+  border: 1px solid #ccc; /* Añade un borde al input */
+  outline: none; /* Elimina el borde de enfoque */
+  font-size: 14px; 
+}
+
+.search-input:focus {
+  border-color: #007bff; 
+}
+
+
+/* Puedes mantener tus estilos existentes aquí */
+
+.navbar {
+  color: #2f3132; /* Cambia "your_color_here" por el color deseado */
+  border: 1px solid #ccc; /* Añade bordes a la barra con un tono de gris */
+  margin-left: 20px; /* Añade un margen izquierdo */
+  margin-right: 20px; /* Añade un margen derecho */
+  border-radius: 10px; /* Agrega bordes redondeados */
+}
+
+.navbar-nav {
+  display: flex;
+  flex-wrap: nowrap; 
+  justify-content: space-between; 
+  width: 100%; 
+}
+
+.navbar-nav .nav-item {
+  flex: 1; 
+}
+
+.dropdown-menu {
+  position: static; 
+  float: none; 
+  width: 100%; 
+}
+

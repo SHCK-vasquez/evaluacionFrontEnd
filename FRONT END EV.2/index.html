@@ -9,34 +9,122 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+
+
+  <div>
+  <img src="Images/icon.png" class="Icon" alt="Icon">
     <h1>Hospital Temuco</h1>
-    <p>En nuestro hospital, nos dedicamos apasionadamente a brindar atención médica de la más alta calidad a cada paciente que entra por nuestras puertas. Desde el momento en que llegas, te recibimos con calidez y empatía, asegurándonos de que te sientas cómodo y seguro durante todo tu proceso de atención médica. Nuestro equipo de profesionales altamente capacitados y compasivos está aquí para escucharte, entender tus necesidades y proporcionarte el cuidado integral que mereces. Ya sea que estés buscando servicios preventivos, tratamientos especializados o atención de emergencia, estamos comprometidos a proporcionarte atención médica excepcional, centrada en ti y en tu bienestar. En nuestro hospital, tu salud es nuestra prioridad, y trabajamos incansablemente para garantizar que cada paso de tu viaje hacia la recuperación sea lo más suave y efectivo posible.</p>
-    <div id="carouselExampleIndicators" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <!-- iconos redes sociales -->
+    <div class="icon-container">
+     
+      <a href="URL_DE_INSTAGRAM" target="_blank"><img src="Images/instagram.png" class="iconsRS" alt="instagram"></a>
+      <a href="URL_DE_LINKEDIN" target="_blank"><img src="Images/linkedin.png" class="iconsRS" alt="youtube"></a>
+      <a href="https://twitter.com/elonmusk" target="_blank"><img src="Images/twitter.png" class="iconsRS" alt="whatsapp"></a>
+  </div>
+  
+   <!-- <p>En nuestro hospital, nos dedicamos apasionadamente a brindar atención médica de la más alta calidad a cada paciente que entra por nuestras puertas. Desde el momento en que llegas, te recibimos con calidez y empatía, asegurándonos de que te sientas cómodo y seguro durante todo tu proceso de atención médica. Nuestro equipo de profesionales altamente capacitados y compasivos está aquí para escucharte, entender tus necesidades y proporcionarte el cuidado integral que mereces. Ya sea que estés buscando servicios preventivos, tratamientos especializados o atención de emergencia, estamos comprometidos a proporcionarte atención médica excepcional, centrada en ti y en tu bienestar. En nuestro hospital, tu salud es nuestra prioridad, y trabajamos incansablemente para garantizar que cada paso de tu viaje hacia la recuperación sea lo más suave y efectivo posible.</p>
+    -->
+  </div>
+   
+   
+   <!-- CARRUSEL DE IMAGENES -->
+   <div id="carouselExampleAutoplaying" class="carouselSlide carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="Images/image-1.jpg" class="d-block w-100" alt="imagen1">
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="Images/image-1.jpg" class="d-block w-1" alt="image-1" width="2000"  height="700">
-          </div>
-          <div class="carousel-item">
-            <img src="Images/image-2.jpg" class="d-block w-1" alt="image-2" width="2000"  height="700">
-          </div>
-          <div class="carousel-item">
-            <img src="Images/image-3.jpg" class="d-block w-1" alt="image-3" width="2000"  height="700">
-          </div>
+        <div class="carousel-item">
+            <img src="Images/image-2.jpg" class="d-block w-100" alt="imagen2">
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">anterior</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">siguiente</span>
-        </button>
+        <div class="carousel-item">
+            <img src="Images/image-3.jpg" class="d-block w-100" alt="imagen3">
+        </div>
+    </div>
+
+
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+    </button>
+</div>
+
+
+       <!-- busqueda  -->
+       <h3>¿Que estás buscando?</h3>
+       <div class="search-container">
+        <input type="text" class="search-input" placeholder="Buscar...">
+    </div>
+
+    <!-- navvar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Servicios en línea
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">aranceles</a></li>
+                <li><a class="dropdown-item" href="#">presupuesto maternidad</a></li>
+                <li><a class="dropdown-item" href="#">pago de cuentas</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Especialidades y servicios
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Servicios clinicos</a></li>
+                <li><a class="dropdown-item" href="#">tele-medicina</a></li>
+                <li><a class="dropdown-item" href="#">Nuestros medicos</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Seguros y convenios
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Seguro contra accidentes</a></li>
+                <li><a class="dropdown-item" href="#">seguros de salud</a></li>
+                <li><a class="dropdown-item" href="#">Isapres</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Prevencíon y bienestar
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Chequeos y programas</a></li>
+                <li><a class="dropdown-item" href="#">Importancia de cuidarse</a></li>
+                <li><a class="dropdown-item" href="#">Aprende a cuidarte</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Educacion de salud
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Todo sobre salud</a></li>
+                <li><a class="dropdown-item" href="#">Banco de enfermedades</a></li>
+                <li><a class="dropdown-item" href="#">Charla y talleres</a></li>
+              </ul>
+            </li>
+            <!-- Agrega más elementos dropdown según sea necesario -->
+          </ul>
+        </div>
       </div>
+    </nav>
+    
+
+<!-- agendar  -->
+
+
 
       <!-- columnas  -->
       <div class="container text-center">
@@ -54,10 +142,12 @@
       </div>
 
       <!-- imagenes info -->
+    <div class="card-container">
+        
       <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="Images/agenda.jpg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
+          <h5 class="card-title">Consulta Medica</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
         <ul class="list-group list-group-flush">
@@ -70,11 +160,18 @@
           <a href="#" class="card-link">Another link</a>
         </div>
       </div>
+
+        <br />
+        <br />
+
+
+
         <!-- imagenes info -->
+  
         <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="Images/examenes.jpg" class="Consulta-medica" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Exámanes Medicos</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
             <ul class="list-group list-group-flush">
@@ -88,10 +185,33 @@
             </div>
           </div>
 
+          <!-- imagenes info -->
+  
+        <div class="card" style="width: 18rem;">
+          <img src="Images/vacuna.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Vacunas</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+          </div>
+        </div>
+
+      </div>
 
 
+   
+      
 
 
+    <!-- agendar hora -->
 
 
 
