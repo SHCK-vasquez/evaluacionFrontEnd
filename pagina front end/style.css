@@ -1,0 +1,192 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #144f6e; /* Cambia este valor al color deseado */
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    position: relative;
+   
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+
+.iconosRDS {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+   
+}
+
+.iconosRDS img {
+    width: 30px;
+    height: auto;
+}
+
+h1 {
+    margin: 0;
+    color: white;
+    position: absolute;
+    margin-left: 44px;
+}
+
+.primerParrafo {
+    margin: 20px;
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.contenedor1 {
+    margin-top: 50px;
+    display: flex;
+}
+
+.TituloBuscador {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.buscador {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.buscador input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.buscador button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.buscador button:hover {
+    background-color: #0056b3;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.foto {
+    margin: 10px;
+    position: relative;
+    cursor: pointer;
+    width: auto;
+}
+
+.foto img {
+    width: 400px;
+    height: 70%;
+    transition: transform 0.5s;
+}
+
+.foto:hover img {
+    transform: scale(1.4);
+}
+
+.formulario-contacto {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.formulario-contacto h2 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.campo {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    color: white
+}
+
+label {
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.Image-1 {
+    width: 30%;
+    margin-left: 30px;
+}
+
+
+.Icon{
+    width: 40px;
+}
+
+footer {
+    background-color: #0d364c;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+
+}
+
+main {
+    margin-bottom: 60px; /* La altura del footer */
+    position: relative;
+    flex: 1;
+}
+
+
+.wrapper {
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+}
