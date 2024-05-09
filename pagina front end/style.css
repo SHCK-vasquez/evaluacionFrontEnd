@@ -232,3 +232,27 @@ main {
 }
 
 
+
+.clinicas-servicios {
+    text-align: justify;
+    margin: 20px;
+}
+
+.clinicas {
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    color: #16ca9d; 
+    
+}
+
+.servicios {
+    font-size: 28px;
+    font-family: Arial, sans-serif;
+    color: #ce66d5; 
+}
+
+
+.imagenClinica{
+    width: 230px;
+    height: 400px;
+}
