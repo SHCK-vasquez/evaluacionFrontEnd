@@ -253,6 +253,23 @@ main {
 
 
 .imagenClinica{
-    width: 230px;
+    width: 800px;
     height: 400px;
+}
+
+
+.Hipervinculos {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.Hipervinculos a {
+    text-decoration: none;
+    color: #fbfbfb;
+    padding: 5px 10px; 
+}
+
+.Hipervinculos a:hover {
+    color: #000; 
 }
